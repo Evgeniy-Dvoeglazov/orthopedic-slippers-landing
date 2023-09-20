@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f19d2f;
+  padding: 11px 13.5px 10px;
+}
+
+.header__title {
+  font-size: 12.69px;
+  line-height: .96;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 400;
+}
+
+.header__flag {
+  width: 14px;
+  height: 9px;
+  align-items: start;
+}

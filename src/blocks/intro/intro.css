@@ -1,0 +1,81 @@
+.intro {
+  text-align: center;
+  background-color: #ffd1ac;
+  line-height: .957;
+  font-size: 0;
+}
+
+.intro__logo {
+  padding-top: 19px;
+}
+
+.intro__title {
+  font-size: 13.47px;
+  font-weight: 400;
+  margin: 10px 0 0;
+  padding-bottom: 19px;
+}
+
+.intro__offer {
+  height: 281px;
+  background-image: url(../../images/intro.png);
+  background-size: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: #fff;
+  font-weight: 700;
+}
+
+.intro__countdown {
+  width: 106px;
+  height: 40.17px;
+  padding: 8.93px 8px;
+  background-color: #f19d2f;
+  border-radius: 7.1px;
+  margin: 0 0 14px 13px;
+  text-align: center;
+}
+
+.intro__countdown-text {
+  margin: 0;
+  font-size: 10.6px;
+  text-transform: uppercase;
+}
+
+.intro__countdown-time {
+  margin: 10.14px 0 0;
+  font-size: 21.25px;
+}
+
+.intro__price {
+  height: 46.13px;
+  padding: 6.35px 7px 5.54px;
+  background-color: #37d997;
+  border-radius: 5.68px;
+  margin: 0 14px 13px 0;
+}
+
+.intro__price-strikeout {
+  position: relative;
+}
+
+.intro__price-standart {
+  margin: 0;
+  font-size: 18.08px;
+}
+
+.intro__price-line {
+  background-color: #e27500;
+  height: 3.51px;
+  border-radius: 3.51px;
+  width: 89px;
+  position: absolute;
+  top: 7px;
+  left: 6.25px;
+}
+
+.intro__price-discounted {
+  margin: 8.11px 0 0;
+  font-size: 22.3px;
+}

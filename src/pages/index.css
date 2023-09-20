@@ -1,0 +1,66 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/gothamPro.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/makingPurchase/makingPurchase.css);
+@import url(../blocks/swiper/swiper.css);
+
+
+/* Стили для тегов select из библиотеки Сhoices */
+.choices {
+  width: 170px;
+}
+
+.choices__list {
+  font-size: 21.69px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: .957;
+}
+
+.choices__inner {
+  width: 170px;
+  height: 50px;
+  padding: 0;
+  border: none;
+  border-radius: 15px;
+}
+
+.choices__list--dropdown {
+  width: 170px;
+}
+
+.choices__list--dropdown .choices__item--selectable {
+  padding: 10px;
+}
+
+.choices[data-type*=select-one] .choices__inner {
+  padding: 0;
+}
+
+.choices__list--single {
+  padding: 15px 0;
+}
+
+.choices[data-type*=select-one]:after {
+  height: 9px;
+  width: 19px;
+  border: 0;
+  background-image: url(../images/arrow-down.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.choices[data-type*=select-one].is-open:after {
+  height: 9px;
+  width: 19px;
+  border: 0;
+  margin-top: -4px;
+  background-image: url(../images/arrow-up.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

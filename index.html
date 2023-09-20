@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./src/images/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css">
+  <link rel="stylesheet" href="./src/pages/index.css">
+  <!-- Библиотека для создания свайпера -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+  <!-- Библиотека для создания кастомных селектов -->
+  <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js" defer></script>
+  <script src="./src/pages/index.js" defer></script>
+  <title>slippers</title>
+</head>
+
+<body class="body">
+  <div class="page">
+
+    <header class="header">
+      <img class="header__flag" alt="flag" src="./src/images/flag.png">
+      <h2 class="header__title">special offer + free delivery 2-4 days in sa</h2>
+      <img class="header__flag" alt="flag" src="./src/images/flag.png">
+    </header>
+
+    <main class="main">
+
+      <section class="intro">
+        <img class="intro__logo" src="./src/images/logo.svg" alt="logo">
+        <h1 class="intro__title">orthopedic slippers</h1>
+        <div class="intro__offer">
+          <div class="intro__countdown">
+            <p class="intro__countdown-text">limited offer</p>
+            <div class="intro__countdown-time"></div>
+          </div>
+          <div class="intro__price">
+            <div class="intro__price-strikeout">
+              <p class="intro__price-standart">R 250.00</p>
+              <div class="intro__price-line"></div>
+            </div>
+            <p class="intro__price-discounted">R 160.00</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="makingPurchase">
+        <div class="makingPurchase__trust">
+          <p class="makingPurchase__trust-text">Excellent 4.8/5</p>
+          <img class="makingPurchase__trustpilot" src="./src/images/trustpilot.svg" alt="trustpilot-logo">
+          <p class="makingPurchase__trust-text makingPurchase__trust-text_green">best selling</p>
+        </div>
+        <h2 class="makingPurchase__title">orthopedic slippers</h2>
+
+        <!-- swiper -->
+        <div class="makingPurchase__swiper">
+
+          <div class="swiper swiper-main">
+            <div class="swiper-wrapper">
+              <!-- слайдеры -->
+              <div class="swiper-slide">
+                <img class="swiper-slide__image" src="./src/images/black.png" alt="black-slippers">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-slide__image" src="./src/images/orange.png" alt="orange-slippers">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-slide__image" src="./src/images/pink.png" alt="pink-slippers">
+              </div>
+              <div class="swiper-slide">
+                <img class="swiper-slide__image" src="./src/images/yellow.png" alt="yellow-slippers">
+              </div>
+            </div>
+
+            <!-- swiper превью -->
+            <div thumbsSlider="" class="swiper swiper-preview">
+              <div class="swiper-wrapper">
+                <!-- слайдеры -->
+                <div class="swiper-slide">
+                  <img class="swiper-slide__image" src="./src/images/black.png" alt="black-slippers">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__image" src="./src/images/orange.png" alt="orange-slippers">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__image" src="./src/images/pink.png" alt="pink-slippers">
+                </div>
+                <div class="swiper-slide">
+                  <img class="swiper-slide__image" src="./src/images/yellow.png" alt="yellow-slippers">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="makingPurchase__delivery">
+            <p class="makingPurchase__delivery-text">Fast Delivery:
+              <span class="makingPurchase__delivery-span">2-4 days from SA</span>
+            </p>
+            <img class="makingPurchase__flag" src="./src/images/flag.png" alt="flag">
+          </div>
+          <div class="makingPurchase__delivery">
+            <p class="makingPurchase__delivery-text">In Stock:
+              <span class="makingPurchase__delivery-span">Shipping from Johannesburg</span>
+            </p>
+            <img class="makingPurchase__flag" src="./src/images/flag.png" alt="flag">
+          </div>
+
+          <ul class="makingPurchase__stars">
+            <li>
+              <img class="makingPurchase__star" src="./src/images/star.svg" alt="star">
+            </li>
+            <li>
+              <img class="makingPurchase__star" src="./src/images/star.svg" alt="star">
+            </li>
+            <li>
+              <img class="makingPurchase__star" src="./src/images/star.svg" alt="star">
+            </li>
+            <li>
+              <img class="makingPurchase__star" src="./src/images/star.svg" alt="star">
+            </li>
+            <li>
+              <img class="makingPurchase__star" src="./src/images/star.svg" alt="star">
+            </li>
+            <p class="makingPurchase__star-reviewsCount">(10)</p>
+          </ul>
+
+          <form class="makingPurchase__selects">
+            <div class="makingPurchase__select">
+              <label class="makingPurchase__select-label">color</label>
+              <select class="makingPurchase__select-item" name="color" id="color-select">
+                <option value="black">black</option>
+                <option value="orange">orange</option>
+                <option value="pink">pink</option>
+                <option value="yellow">yellow</option>
+              </select>
+            </div>
+            <div class="makingPurchase__select">
+              <label class="makingPurchase__select-label" for="size-select">size</label>
+              <select class="makingPurchase__select-item" name="color" id="size-select">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+          </form>
+
+          <a class="makingPurchase__button" href="https://www.youtube.com/">buy now</a>
+        </div>
+
+      </section>
+
+    </main>
+  </div>
+</body>
+
+</html>
