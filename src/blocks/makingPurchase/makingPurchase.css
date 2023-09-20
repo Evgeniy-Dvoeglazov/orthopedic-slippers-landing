@@ -1,5 +1,5 @@
 .makingPurchase {
-  padding: 11px 16px 41.38px;
+  padding: 9px 16px 41.38px;
 }
 
 .makingPurchase__trust {
@@ -68,7 +68,7 @@
 }
 
 .makingPurchase__selects {
-  margin-top: 20px;
+  margin-top: 18px;
   display: flex;
   justify-content: space-between;
 }
@@ -99,4 +99,9 @@
   padding: 11px 0;
   line-height: .957;
   margin-top: 20px;
+  transition: opacity .2s linear;
+}
+
+.makingPurchase__button:hover {
+  opacity: .7;
 }
