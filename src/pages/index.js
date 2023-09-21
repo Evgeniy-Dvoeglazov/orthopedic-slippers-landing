@@ -45,9 +45,8 @@ const choicesSize = new Choices(selectSizeElement, {
 
 const countDownDate = new Date("September 21 2023 23:59:59");
 
-const countDown = setInterval(function() {
+const countDown = setInterval(function () {
   const now = new Date();
-
   const distance = countDownDate - now;
 
   const hours = Math.floor(distance / 1000 / 60 / 60);
@@ -55,4 +54,5 @@ const countDown = setInterval(function() {
   const seconds = Math.floor(distance / 1000) % 60;
 
   time.textContent = `${hours < 10 ? "0" + hours : hours}:${minutes < 10 ? "0" + minutes : minutes}:${seconds < 10 ? "0" + seconds : seconds}`;
-}, 0);
+  console.log(hours);
+}, 500);
