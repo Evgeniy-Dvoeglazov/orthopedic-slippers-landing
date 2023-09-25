@@ -43,7 +43,7 @@ const choicesSize = new Choices(selectSizeElement, {
 
 // Создаем и настраиваем таймер обратного отсчета
 
-const countDownDate = new Date("September 24 2023 23:57:59");
+const countDownDate = new Date("September 25 2023 23:57:59");
 
 const countDown = setInterval(function () {
   const now = new Date();
